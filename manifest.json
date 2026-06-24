@@ -1,0 +1,11 @@
+{
+  "name": "AI劳动仲裁助手",
+  "short_name": "仲裁助手",
+  "description": "劳动仲裁导航系统 - 作战地图、赔偿计算、证据清单",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f5f7",
+  "theme_color": "#1d1d1f"
+}
