@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded',function(){if('serviceWorker'in nav
   fetch('https://api.countapi.xyz/hit/arbitration-helper-app/visitors')
   .then(function(r){return r.json()})
   .then(function(d){
-    document.getElementById('ct').innerHTML = '你是第 ' + d.value.toLocaleString() + ' 位维权者，维权路上你并不孤单';
+    document.getElementById('ct').innerHTML = '⚖️ 你是第 ' + d.value.toLocaleString() + ' 位维权者，维权路上你并不孤单';
   })
   .catch(function(){
     ;
